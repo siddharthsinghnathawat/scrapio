@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Eco-friendly neighborhood with recycling symbols",
+      "imageUrl": "https://images.unsplash.com/photo-1642404151357-e41750ef7bd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWN5Y2xpbmclMjBzdXN0YWluYWJpbGl0eXxlbnwwfHx8fDE3NzE4NzU0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "recycling sustainability"
+    },
+    {
+      "id": "scrap-metal",
+      "description": "Pile of metal scrap",
+      "imageUrl": "https://images.unsplash.com/photo-1625662276901-4a7ec44fbeed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY3JhcCUyMG1ldGFsfGVufDB8fHx8MTc3MTkxNTk0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scrap metal"
+    },
+    {
+      "id": "scrap-paper",
+      "description": "Stacked newspapers and cardboard",
+      "imageUrl": "https://images.unsplash.com/photo-1762442331913-116ab25e212a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3YXN0ZSUyMHBhcGVyfGVufDB8fHx8MTc3MTkxNTk0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waste paper"
+    },
+    {
+      "id": "scrap-electronics",
+      "description": "Old electronic devices for recycling",
+      "imageUrl": "https://images.unsplash.com/photo-1512237017014-1b4a7fa57654?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlLXdhc3RlJTIwZWxlY3Ryb25pY3N8ZW58MHx8fHwxNzcxOTE1OTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "e-waste electronics"
+    },
+    {
+      "id": "marketplace-chair",
+      "description": "Pre-owned vintage chair",
+      "imageUrl": "https://images.unsplash.com/photo-1560295888-44704dea4ea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2aW50YWdlJTIwZnVybml0dXJlfGVufDB8fHx8MTc3MTkxNTk0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage furniture"
+    }
+  ]
+}
