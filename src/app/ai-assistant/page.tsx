@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { Search, Info, Recycle, Trash2, BadgeDollarSign, ShoppingBag } from "lucide-react";
+import { Search, Info, Recycle, Trash2, IndianRupee, ShoppingBag } from "lucide-react";
 import Navbar from "@/components/shared/Navbar";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -183,7 +183,7 @@ export default function RecyclingGuidePage() {
                   <div>
                     <Label className="text-xs uppercase text-muted-foreground tracking-wider mb-1 block">Estimated Scrap Value</Label>
                     <div className="flex items-center gap-2 text-primary">
-                      <BadgeDollarSign className="h-5 w-5" />
+                      <IndianRupee className="h-5 w-5" />
                       <span className="text-xl font-bold">{result.scrapValue}</span>
                     </div>
                   </div>

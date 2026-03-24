@@ -4,6 +4,7 @@ import { Truck, ShoppingBag, Search, Recycle, ArrowRight, CheckCircle2 } from "l
 import Navbar from "@/components/shared/Navbar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import scrapImg from "@/scrap.jpeg";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function LandingPage() {
@@ -44,10 +45,10 @@ export default function LandingPage() {
           <div className="flex-1 relative w-full aspect-video md:aspect-square lg:aspect-auto">
             <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl animate-pulse" />
             <Image
-              src={heroImage?.imageUrl || "https://picsum.photos/seed/scrapio-hero/800/600"}
+              src={"https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/doorscrap.com/wp-content/uploads/2025/06/cropped-ChatGPT-Image-Jun-17-2025-12_00_07-AM.png"}
               alt="Sustainability recycling"
-              width={800}
-              height={600}
+              width={500}
+              height={500}
               className="relative rounded-2xl shadow-2xl object-cover border-4 border-white w-full h-full"
               priority
               data-ai-hint={heroImage?.imageHint || "recycling sustainability"}

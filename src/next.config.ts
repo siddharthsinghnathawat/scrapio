@@ -16,12 +16,36 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+       {
+        protocol: 'https',
+        hostname: '**',
+        port: '',
+        pathname: '/**',
+      },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'scrapvendor.com',
+        port: '',
+        pathname: '/**',
+      },{
+        protocol: 'https',
+        hostname: 'tiimg.tistatic.com',
+        port: '',
+        pathname: '/**',
+      },
+       {
+        protocol: 'https',
+        hostname: 'spcdn.shortpixel.ai',
+        port: '',
+        pathname: '/**',
+      },
+       
       {
         protocol: 'https',
         hostname: 'picsum.photos',

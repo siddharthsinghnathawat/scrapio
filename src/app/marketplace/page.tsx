@@ -17,7 +17,7 @@ const ITEMS = [
     price: 45,
     category: "Furniture",
     location: "Downtown",
-    image: "https://picsum.photos/seed/chair-market/400/400",
+    image: "https://scrapvendor.com/wp-content/uploads/2014/09/Home-Furniture-Scrap2.jpg",
     imageHint: "vintage chair"
   },
   {
@@ -26,7 +26,7 @@ const ITEMS = [
     price: 15,
     category: "Kitchen",
     location: "Westside",
-    image: "https://picsum.photos/seed/jars/400/400",
+    image: "https://tiimg.tistatic.com/fp/1/006/606/eco-friendly-disposable-juice-glass-180.jpg",
     imageHint: "glass jars"
   },
   {
@@ -40,11 +40,11 @@ const ITEMS = [
   },
   {
     id: 4,
-    title: "Handmade Bamboo Lamp",
-    price: 35,
+    title: "NewsPaper",
+    price: 3,
     category: "Decor",
     location: "Green Valley",
-    image: "https://picsum.photos/seed/lamp/400/400",
+    image: "https://hariomad.com/blog/wp-content/uploads/2022/02/newspaper-advertising-service-500x500-1.png",
     imageHint: "bamboo lamp"
   },
   {
@@ -53,7 +53,7 @@ const ITEMS = [
     price: 80,
     category: "Garden",
     location: "Sunnyvale",
-    image: "https://picsum.photos/seed/table/400/400",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa1Fj75Izc2ZJwisWhtKMARmqY8BcTbvcDA&s",
     imageHint: "iron table"
   },
   {
@@ -62,7 +62,7 @@ const ITEMS = [
     price: 25,
     category: "Others",
     location: "Library Hill",
-    image: "https://picsum.photos/seed/books/400/400",
+    image: "https://images.squarespace-cdn.com/content/v1/5876279bbebafb82a7c81c00/f4e17d6a-81db-4a04-9bda-63c86c517778/IMG_3105.jpg",
     imageHint: "classic books"
   }
 ];
@@ -131,7 +131,7 @@ export default function MarketplacePage() {
               <CardContent className="p-4 space-y-3">
                 <div className="flex justify-between items-start gap-2">
                   <h3 className="font-bold text-lg leading-tight line-clamp-2">{item.title}</h3>
-                  <div className="text-primary font-bold text-xl">${item.price}</div>
+                  <div className="text-primary font-bold text-xl">₹{item.price}</div>
                 </div>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <span className="flex items-center gap-1.5">

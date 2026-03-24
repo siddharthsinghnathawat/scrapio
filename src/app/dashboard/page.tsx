@@ -38,7 +38,7 @@ export default function DashboardPage() {
               <CardContent className="pt-6">
                 <div className="space-y-4">
                   <StatItem icon={<Recycle className="text-primary" />} label="Total Recycled" value="128 kg" />
-                  <StatItem icon={<Badge variant="outline" className="text-primary">$</Badge>} label="Earnings" value="$42.50" />
+                  <StatItem icon={<Badge variant="outline" className="text-primary">₹</Badge>} label="Earnings" value="₹42.50" />
                   <StatItem icon={<Package className="text-secondary" />} label="Listed Items" value="3" />
                 </div>
               </CardContent>
@@ -103,13 +103,13 @@ export default function DashboardPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <ListingCard 
                     title="Vintage Table" 
-                    price="$45" 
+                    price="₹45" 
                     status="Active" 
                     image="https://picsum.photos/seed/tab-1/100/100" 
                   />
                   <ListingCard 
                     title="Old Monitor" 
-                    price="$20" 
+                    price="₹20" 
                     status="Sold" 
                     image="https://picsum.photos/seed/mon-1/100/100" 
                   />

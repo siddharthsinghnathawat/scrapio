@@ -3,13 +3,13 @@
     {
       "id": "hero-bg",
       "description": "Eco-friendly neighborhood with recycling symbols",
-      "imageUrl": "https://images.unsplash.com/photo-1642404151357-e41750ef7bd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWN5Y2xpbmclMjBzdXN0YWluYWJpbGl0eXxlbnwwfHx8fDE3NzE4NzU0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/hero-bg.png",
       "imageHint": "recycling sustainability"
     },
     {
       "id": "scrap-metal",
-      "description": "Pile of metal scrap",
-      "imageUrl": "https://images.unsplash.com/photo-1625662276901-4a7ec44fbeed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzY3JhcCUyMG1ldGFsfGVufDB8fHx8MTc3MTkxNTk0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Premium close-up of cleanly organized scrap electronics & metals",
+      "imageUrl": "/scrap-metal.png",
       "imageHint": "scrap metal"
     },
     {
