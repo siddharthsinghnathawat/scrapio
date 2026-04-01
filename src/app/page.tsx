@@ -41,17 +41,20 @@ export default function LandingPage() {
                 </Link>
               </Button>
             </div>
+            
+            <div className="flex justify-center md:justify-start mt-6 text-sm text-muted-foreground">
+              Are you a verified collection partner?{" "}
+              <Link href="/collector/login" className="text-secondary font-bold ml-1 hover:underline flex items-center gap-1">
+                Partner Portal <ArrowRight className="h-3 w-3" />
+              </Link>
+            </div>
           </div>
           <div className="flex-1 relative w-full aspect-video md:aspect-square lg:aspect-auto">
             <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl animate-pulse" />
-            <Image
-              src={"https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/doorscrap.com/wp-content/uploads/2025/06/cropped-ChatGPT-Image-Jun-17-2025-12_00_07-AM.png"}
-              alt="Sustainability recycling"
-              width={500}
-              height={500}
+            <img
+              src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80"
+              alt="Scrapio Recycling Van"
               className="relative rounded-2xl shadow-2xl object-cover border-4 border-white w-full h-full"
-              priority
-              data-ai-hint={heroImage?.imageHint || "recycling sustainability"}
             />
           </div>
         </div>
